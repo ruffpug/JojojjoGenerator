@@ -5,6 +5,9 @@ import org.jetbrains.compose.web.css.*
 import org.jetbrains.compose.web.dom.Div
 import org.jetbrains.compose.web.renderComposable
 
+class BadClass(val x: Int,
+ val y: String)
+
 fun main() {
     val bloc = GeneratorBloc()
 
